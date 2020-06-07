@@ -144,4 +144,48 @@ nav div a:hover {
     transition: 0.3s;
   }
 }
+
+@media screen and (max-width: 767px) {
+  nav div {
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #picture {
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #picture div {
+    height: 900px;
+  }
+  #picture div:nth-child(1) {
+    background-image: url(/img/3.jpg);
+  }
+  #picture div:nth-child(2) {
+    background-image: url(/img/2.jpg);
+  }
+  #picture div:nth-child(3) {
+    background-image: url(/img/1.jpg);
+  }
+  h1 {
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  #content {
+    width: 100%;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  #content h1 {
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1 / 2;
+  }
+}
 /*# sourceMappingURL=style.css.map */
